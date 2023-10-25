@@ -1,0 +1,47 @@
+.div1 {
+    position: absolute;
+ 
+    transform: translate(-50%, -50%);
+}
+
+.hmain {
+  
+    font-family: serif;
+    color: transparent;
+
+    animation: effect 4s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+            #fe4d54, #fe4d54);
+        -webkit-background-clip: text;
+    }
+    20% {
+        background: linear-gradient(
+            #029afd, #029afd);
+        -webkit-background-clip: text;
+    }
+    40% {
+        background: linear-gradient(
+            #71eb74, #71eb74);
+        -webkit-background-clip: text;
+    }
+    60% {
+        background: linear-gradient(
+            #c4d55d, #c4d55d);
+        -webkit-background-clip: text;
+    }
+    80% {
+        background: linear-gradient(
+            #dfc5fe, #dfc5fe);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+            #3CE7D7, #3CE7D7);
+        -webkit-background-clip: text;
+    }
+}
